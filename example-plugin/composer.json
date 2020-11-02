@@ -1,0 +1,16 @@
+{
+    "name": "plugins/example-plugin",
+    "authors": [
+        {
+            "name": "Andrew",
+            "email": "seven_march@bk.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Example\\": "./includes"
+        },
+        "classmap": ["includes/"]
+    }
+}
